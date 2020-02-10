@@ -369,4 +369,5 @@ MigrationBackup/
 
 # appsettings
 appsettings.json
+appsettings.Development.json
 # End of https://www.gitignore.io/api/react,visualstudio
