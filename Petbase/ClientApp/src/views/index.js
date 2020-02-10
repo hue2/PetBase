@@ -1,0 +1,46 @@
+import {
+  Breadcrumbs,
+  Cards,
+  Carousels,
+  Collapses,
+  Dropdowns,
+  Forms,
+  Jumbotrons,
+  ListGroups,
+  Navbars,
+  Navs,
+  Paginations,
+  Popovers,
+  ProgressBar,
+  Switches,
+  Tables,
+  Tabs,
+  Tooltips,
+} from './Base';
+
+import { CoreUIIcons, Flags, FontAwesome, SimpleLineIcons } from './Icons';
+
+export {
+  CoreUIIcons,
+  Modals,
+  Flags,
+  SimpleLineIcons,
+  FontAwesome,
+  Tooltips,
+  Tabs,
+  Jumbotrons,
+  Switches,
+  ProgressBar,
+  Popovers,
+  Navs,
+  Navbars,
+  ListGroups,
+  Forms,
+  Dropdowns,
+  Collapses,
+  Carousels,
+  Cards,
+  Breadcrumbs,
+  Paginations,
+};
+

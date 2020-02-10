@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    className="animated fadeIn"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <br />
+        <div>
+          <h2>
+            Dogs
+          </h2>
+          <hr />
+        </div>
+        <div
+          className="card"
+        >
+          <div
+            className="card-body"
+          >
+            <div>
+              <label
+                className="search-label"
+                htmlFor="search-bar-0"
+              >
+                <span
+                  className="sr-only"
+                >
+                  Search this table
+                </span>
+                <input
+                  aria-label="enter text you want to search"
+                  className="form-control "
+                  id="search-bar-0"
+                  onChange={[Function]}
+                  onKeyUp={[Function]}
+                  placeholder="Search"
+                  style={
+                    Object {
+                      "marginBottom": 20,
+                    }
+                  }
+                  type="text"
+                  value=""
+                />
+              </label>
+              <div
+                className="react-bootstrap-table"
+              >
+                <table
+                  className="table table-striped table-hover"
+                >
+                  <thead>
+                    <tr>
+                      <th
+                        style={
+                          Object {
+                            "width": "15%",
+                          }
+                        }
+                        tabIndex={0}
+                      >
+                        Name
+                      </th>
+                      <th
+                        style={
+                          Object {
+                            "width": "15%",
+                          }
+                        }
+                        tabIndex={0}
+                      >
+                        Life Span
+                      </th>
+                      <th
+                        style={
+                          Object {
+                            "width": "15%",
+                          }
+                        }
+                        tabIndex={0}
+                      >
+                        Size
+                      </th>
+                      <th
+                        style={
+                          Object {
+                            "width": "15%",
+                          }
+                        }
+                        tabIndex={0}
+                      >
+                        Coat
+                      </th>
+                      <th
+                        style={
+                          Object {
+                            "width": "25%",
+                          }
+                        }
+                        tabIndex={0}
+                      >
+                        Unique Traits
+                      </th>
+                      <th
+                        tabIndex={0}
+                      >
+                        Picture
+                      </th>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
