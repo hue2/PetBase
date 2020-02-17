@@ -26,7 +26,7 @@ export default class Table extends React.PureComponent {
                                 {
                                     props => (
                                     <div>
-                                        <SearchBar { ...props.searchProps } style={{ marginBottom: 20 }}/>
+                                        <div id="table-wrapper"><SearchBar { ...props.searchProps } style={{ marginBottom: 20 }}/></div>
                                         <BootstrapTable { ...props.baseProps } 
                                             bordered={ false }
                                             striped

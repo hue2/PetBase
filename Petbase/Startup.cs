@@ -1,6 +1,8 @@
 using DataService.Interfaces;
 using DataService.Models;
 using DataService.Repository;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -33,8 +35,20 @@ namespace Petbase
                 configuration.RootPath = "ClientApp/build";
             });
 
-            services.AddDbContext<PetbaseContext>(options => options.UseMySQL(Configuration["AppSettings:ConnectionString"].ToString()));
+            services.AddDbContext<PetbaseContext>(options => options.UseMySQL(Configuration["AppSettings:ConnectionString"]));
             services.AddScoped<IRepository, PetbaseRepository>();
+            services.AddAuthentication(options => {
+                options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = OpenIdConnectDefaults.AuthenticationScheme;
+            })
+             .AddCookie()
+             .AddOpenIdConnect(options => {
+                 options.Authority = Configuration["AppSettings:PetFinderAuthority"];
+                 options.ClientId = Configuration["AppSettings:PetFinderApiKey"];
+                 options.ClientSecret = Configuration["AppSettings:PetFinderApiSecret"];
+                 options.SaveTokens = true;
+             });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,7 +68,7 @@ namespace Petbase
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
-
+            app.UseAuthentication();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

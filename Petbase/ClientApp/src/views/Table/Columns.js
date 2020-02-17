@@ -47,7 +47,7 @@ export default class Columns {
         text: 'Picture',
         formatter: (cell, row) => {
             return (
-                <div className="container" onClick={() => func(row)}>
+                <div className="img-container" onClick={() => func(row)}>
                     <img src={cell} className="image"></img>
                     <div className="overlay">
                         <div className="overlay-text">Click to enlarge</div>
