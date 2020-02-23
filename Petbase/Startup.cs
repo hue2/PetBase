@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MySql.Data.MySqlClient;
+using Petbase.Models;
 
 namespace Petbase
 {
@@ -28,13 +29,14 @@ namespace Petbase
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-
+            services.AddMemoryCache();
+            services.AddHttpClient();
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
                 configuration.RootPath = "ClientApp/build";
             });
-
+            services.Configure<AppSettings>(options => Configuration.GetSection("AppSettings").Bind(options));
             services.AddDbContext<PetbaseContext>(options => options.UseMySQL(Configuration["AppSettings:ConnectionString"]));
             services.AddScoped<IRepository, PetbaseRepository>();
             services.AddAuthentication(options => {
