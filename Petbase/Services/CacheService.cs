@@ -14,7 +14,13 @@ namespace Petbase.Services
 
         public object GetCache(object key) 
         {
-            return this.cache.Get(key);
+            object token;
+           
+            if (cache.TryGetValue(key, out token))
+            {
+                return token;
+            }
+            return null;        
         }
 
         public void SaveCache(object key, object value)

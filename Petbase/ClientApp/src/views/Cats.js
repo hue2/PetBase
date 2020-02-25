@@ -7,13 +7,18 @@ import Columns from './Table/Columns';
 export default class Cats extends React.PureComponent {
     state = {
         data: [],
-        showModal: false,
+        pictureModal: false,
+        adoptModal: false,
         selectedRow: { name: '', imageUrl: '' },
     }
 
     handleImageClick = (row) => {
         this.setState({ selectedRow: row });
         this.toggleModal();
+    }
+
+    handleAdoptClick = (row) => {
+        
     }
 
     catApi = new CatApi();
@@ -25,9 +30,9 @@ export default class Cats extends React.PureComponent {
         })
     }
 
-    toggleModal = () => {
+    toggleModal = (event) => {
         this.setState({
-            showModal: !this.state.showModal,
+            [event.target.id]: !this.state[event.target.id],
         });
     }
 
@@ -36,10 +41,18 @@ export default class Cats extends React.PureComponent {
             <div>
                 <Table data={this.state.data} columns={this.columns} title="Cats" />
                 <Modal 
-                    showModal={this.state.showModal} 
+                    showModal={this.state.pictureModal} 
                     title={this.state.selectedRow.name} 
                     toggle={this.toggleModal} 
                     imageUrl={this.state.selectedRow.pictureUrl} 
+                    id="pictureModal"
+                />
+                <Modal
+                    showModal={this.state.adoptModal} 
+                    title={this.state.selectedRow.name} 
+                    toggle={this.toggleModal} 
+                    imageUrl={this.state.selectedRow.pictureUrl} 
+                    id="adoptModal"
                 />
             </div>
         )

@@ -55,6 +55,17 @@ export default class Columns {
                 </div>
             )
         }
+    },
+    {
+        dataField: 'name',
+        text: 'Adopt',
+        formatter: (cell, row) => {
+            return (
+                <div className="img-container" onClick={() => func(row)}>
+                    <button onClick={}></button>
+                </div>
+            )
+        }
     }
 ]
 }

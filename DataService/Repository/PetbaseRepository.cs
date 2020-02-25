@@ -16,7 +16,7 @@ namespace DataService.Repository
 
         public IQueryable<IEntity> GetAll<IEntity>() where IEntity : class
         {
-            return this.context.Set<IEntity>().AsNoTracking();
+            return context.Set<IEntity>().AsNoTracking();
         }
     }
 }

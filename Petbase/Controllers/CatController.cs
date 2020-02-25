@@ -1,6 +1,7 @@
 using DataService.Interfaces;
 using DataService.Models;
 using Microsoft.AspNetCore.Mvc;
+using Petbase.Interfaces;
 using System.Collections.Generic;
 
 namespace Petbase.Controllers
@@ -9,16 +10,24 @@ namespace Petbase.Controllers
     public class CatController : Controller
     {
         private readonly IRepository repository;
+        private readonly IPetFinderApiService service;
 
-        public CatController(IRepository repository)
+        public CatController(IRepository repository, IPetFinderApiService service)
         {
             this.repository = repository;
+            this.service = service;
         }
 
         [HttpGet]
         public IEnumerable<Cats> Get()
         {
             return this.repository.GetAll<Cats>();
+        }
+
+        [HttpGet("petfinder")]
+        public dynamic GetPets()
+        {
+            return service.GetPets(null);
         }
     }
 }

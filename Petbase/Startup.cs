@@ -12,7 +12,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MySql.Data.MySqlClient;
+using Petbase.Interfaces;
 using Petbase.Models;
+using Petbase.Services;
 
 namespace Petbase
 {
@@ -39,6 +41,8 @@ namespace Petbase
             services.Configure<AppSettings>(options => Configuration.GetSection("AppSettings").Bind(options));
             services.AddDbContext<PetbaseContext>(options => options.UseMySQL(Configuration["AppSettings:ConnectionString"]));
             services.AddScoped<IRepository, PetbaseRepository>();
+            services.AddScoped<IPetFinderApiService, PetFinderApiService>();
+            services.AddScoped<ICacheService, CacheService>();
             services.AddAuthentication(options => {
                 options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
                 options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
