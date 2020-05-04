@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default class Columns {
-    getColumns = (func) => [
+    getColumns = (func, adoptFunc) => [
     {
         dataField: 'id',
         hidden: true,
@@ -47,7 +47,7 @@ export default class Columns {
         text: 'Picture',
         formatter: (cell, row) => {
             return (
-                <div className="img-container" onClick={() => func(row)}>
+                <div className="img-container" onClick={(event) => func(event, row)}>
                     <img src={cell} className="image"></img>
                     <div className="overlay">
                         <div className="overlay-text">Click to enlarge</div>
@@ -61,8 +61,8 @@ export default class Columns {
         text: 'Adopt',
         formatter: (cell, row) => {
             return (
-                <div className="img-container" onClick={() => func(row)}>
-                    <button onClick={}></button>
+                <div className="img-container" id="adoptModal" onClick={(event) => adoptFunc(event, row)}>
+                    Adopt
                 </div>
             )
         }

@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Petbase.Interfaces;
 using Petbase.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Petbase.Controllers
@@ -19,9 +16,9 @@ namespace Petbase.Controllers
         }
 
         [HttpGet]
-        public async Task<AnimalResult> GetPets()
+        public async Task<AnimalResult> GetPets(string breed, string zipcode)
         {
-            return await service.GetPets(null);
+            return await service.GetPets(new AnimalFilter() { Breed = breed, ZipCode = zipcode });
         }
     }
 }

@@ -1,5 +1,5 @@
-﻿using DataService.Interfaces;
-using Microsoft.Extensions.Caching.Memory;
+﻿using Microsoft.Extensions.Caching.Memory;
+using Petbase.Interfaces;
 
 namespace Petbase.Services
 {

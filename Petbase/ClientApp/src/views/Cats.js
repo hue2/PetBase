@@ -3,6 +3,8 @@ import Table from './Table/Table';
 import CatApi from '../api/CatApi';
 import Modal from './Modal/Modal';
 import Columns from './Table/Columns';
+import AdoptModal from './Modal/AdoptModal';
+import PetFinderApi from '../api/PetFinder';
 
 export default class Cats extends React.PureComponent {
     state = {
@@ -10,19 +12,23 @@ export default class Cats extends React.PureComponent {
         pictureModal: false,
         adoptModal: false,
         selectedRow: { name: '', imageUrl: '' },
+        zipcode: null,
+        animals: []
     }
 
-    handleImageClick = (row) => {
+    handleImageClick = (event, row) => {
         this.setState({ selectedRow: row });
-        this.toggleModal();
+        this.toggleModal(event);
     }
 
-    handleAdoptClick = (row) => {
-        
+    handleAdoptClick = (event, row) => {
+        this.setState({ selectedRow: row });
+        this.toggleModal(event);
     }
 
     catApi = new CatApi();
-    columns = new Columns().getColumns(this.handleImageClick);
+    columns = new Columns().getColumns(this.handleImageClick, this.handleAdoptClick);
+    petFinderApi = new PetFinderApi();
 
     componentDidMount () {
         this.catApi.get().then(data => {
@@ -33,6 +39,16 @@ export default class Cats extends React.PureComponent {
     toggleModal = (event) => {
         this.setState({
             [event.target.id]: !this.state[event.target.id],
+        });
+    }
+
+    handleChange = (event) => {
+        this.setState({ zipcode: event.target.value })
+    }
+
+    handleSearch = () => {
+        this.petFinderApi.get(this.state.selectedRow.name, this.state.zipcode).then(result => {
+            this.setState({ animals: result.animals })
         });
     }
 
@@ -47,12 +63,16 @@ export default class Cats extends React.PureComponent {
                     imageUrl={this.state.selectedRow.pictureUrl} 
                     id="pictureModal"
                 />
-                <Modal
+                <AdoptModal
                     showModal={this.state.adoptModal} 
                     title={this.state.selectedRow.name} 
                     toggle={this.toggleModal} 
                     imageUrl={this.state.selectedRow.pictureUrl} 
+                    onChange={this.handleChange}
+                    zipcode={this.state.zipcode}
+                    onSearch={this.handleSearch}
                     id="adoptModal"
+                    animals={this.state.animals}
                 />
             </div>
         )
