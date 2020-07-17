@@ -1,20 +1,16 @@
-using DataService.Interfaces;
-using DataService.Models;
-using DataService.Repository;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using MySql.Data.MySqlClient;
-using Petbase.Interfaces;
-using Petbase.Models;
-using Petbase.Services;
+using Petbase.DataService.Interfaces;
+using Petbase.DataService.Models;
+using Petbase.DataService.Repository;
+using Petbase.DataService.Services;
 
 namespace Petbase
 {

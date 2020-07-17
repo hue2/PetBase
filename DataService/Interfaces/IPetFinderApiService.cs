@@ -1,7 +1,7 @@
-﻿using Petbase.Models;
+﻿using Petbase.DataService.Models;
 using System.Threading.Tasks;
 
-namespace Petbase.Interfaces
+namespace Petbase.DataService.Interfaces
 {
     public interface IPetFinderApiService
     {

@@ -1,4 +1,4 @@
-﻿namespace Petbase.Models
+﻿namespace Petbase.DataService.Models
 {
     public class Contact
     {

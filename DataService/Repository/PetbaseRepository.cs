@@ -1,9 +1,9 @@
-﻿using DataService.Interfaces;
-using DataService.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using Petbase.DataService.Interfaces;
+using Petbase.DataService.Models;
 using System.Linq;
 
-namespace DataService.Repository
+namespace Petbase.DataService.Repository
 {
     public class PetbaseRepository : IRepository
     {

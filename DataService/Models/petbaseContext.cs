@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace DataService.Models
+namespace Petbase.DataService.Models
 {
     public partial class PetbaseContext : DbContext
     {

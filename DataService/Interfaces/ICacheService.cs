@@ -1,4 +1,4 @@
-﻿namespace Petbase.Interfaces
+﻿namespace Petbase.DataService.Interfaces
 {
     public interface ICacheService
     {

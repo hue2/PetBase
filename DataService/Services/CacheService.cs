@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Caching.Memory;
-using Petbase.Interfaces;
+using Petbase.DataService.Interfaces;
 
-namespace Petbase.Services
+namespace Petbase.DataService.Services
 {
     public class CacheService : ICacheService
     {

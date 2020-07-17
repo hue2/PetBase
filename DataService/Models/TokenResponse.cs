@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Petbase.Models
+namespace Petbase.DataService.Models
 {
     public class TokenResponse
     {

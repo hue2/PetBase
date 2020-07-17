@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Petbase.Models
+namespace Petbase.DataService.Models
 {
     public class AnimalResult
     {

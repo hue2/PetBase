@@ -1,16 +1,14 @@
-﻿using DataService.Interfaces;
-using Microsoft.Extensions.Options;
+﻿using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
-using Petbase.Interfaces;
-using Petbase.Models;
-using System;
+using Petbase.DataService.Interfaces;
+using Petbase.DataService.Models;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Petbase.Services
+namespace Petbase.DataService.Services
 {
     public class PetFinderApiService : IPetFinderApiService
     {
@@ -25,18 +23,34 @@ namespace Petbase.Services
             this.client = clientFactory.CreateClient();
         }
 
-        public async Task<string> GetAccessToken()
+        public async Task<AnimalResult> GetPets(AnimalFilter filters)
         {
-            string credentials = $"{settings.Value.PetFinderApiKey}:{settings.Value.PetFinderApiSecret}";
-            client.DefaultRequestHeaders.Accept.Clear();
-            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(Encoding.UTF8.GetBytes(credentials)));
+            var result = new AnimalResult();
+            var filter = GetQueryString(filters);
+            var response = await Get(filter);
 
-            var requestData = new List<KeyValuePair<string, string>>();
-            requestData.Add(new KeyValuePair<string, string>("grant_type", "client_credentials"));
+            if (response.IsSuccessStatusCode)
+            {
+                var data = await response.Content.ReadAsStringAsync();
+                result = JsonConvert.DeserializeObject<AnimalResult>(data);
+            }
 
-            FormUrlEncodedContent requestBody = new FormUrlEncodedContent(requestData);
-            var request = await client.PostAsync(settings.Value.PetFinderAuthority, requestBody);
+            return result;
+        }
+
+        public async Task<string> GetAccessToken()
+        {         
+            var content = new StringContent(           
+                JsonConvert.SerializeObject(
+                    new
+                    {
+                        client_id = settings.Value.PetFinderApiKey,
+                        client_secret = settings.Value.PetFinderApiSecret,
+                        grant_type = "client_credentials"
+                    }), 
+            Encoding.UTF8, "application/json");
+                    
+            var request = await client.PostAsync(settings.Value.PetFinderAuthority, content);
 
             if (request.IsSuccessStatusCode)
             {
@@ -52,12 +66,7 @@ namespace Petbase.Services
             }
         }
 
-        public string GetTokenFromCache()
-        {
-            return cacheService.GetCache("accessToken")?.ToString();
-        }
-
-        public async Task<AnimalResult> GetPets(AnimalFilter filters)
+        public async Task<HttpResponseMessage> Get(string filter)
         {
             var token = GetTokenFromCache();
             if (string.IsNullOrWhiteSpace(token))
@@ -65,20 +74,13 @@ namespace Petbase.Services
                 token = await GetAccessToken();
             }
 
-            var request = new HttpRequestMessage(HttpMethod.Get, GetQueryString(filters));
+            var request = new HttpRequestMessage(HttpMethod.Get, filter);
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             var response = await client.SendAsync(request);
-            if (response.IsSuccessStatusCode)
-            {
-                var result = await response.Content.ReadAsStringAsync();
-                var animal = JsonConvert.DeserializeObject<AnimalResult>(result);
-                return animal;
-            }
-
-            return null;
+            return response;
         }
 
-        private string GetQueryString(AnimalFilter filters)
+        public string GetQueryString(AnimalFilter filters)
         {
             if (filters == null)
             {
@@ -90,12 +92,17 @@ namespace Petbase.Services
             {
                 if (property.GetValue(filters) != null)
                 {
-                    parameters.Add($"{property.Name}={property.GetValue(filters)}");
+                    parameters.Add($"{property.Name.ToLower()}={property.GetValue(filters)}");
                 }
             }
 
             var queryUrl = $"{settings.Value.PetFinderAnimalUrl}?{string.Join('&', parameters.ToArray())}";
             return queryUrl;
+        }
+
+        public string GetTokenFromCache()
+        {
+            return cacheService.GetCache("accessToken")?.ToString();
         }
     }
 }
