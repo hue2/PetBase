@@ -2,10 +2,10 @@
 using Newtonsoft.Json;
 using Petbase.DataService.Interfaces;
 using Petbase.DataService.Models;
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Petbase.DataService.Services
@@ -13,14 +13,14 @@ namespace Petbase.DataService.Services
     public class PetFinderApiService : IPetFinderApiService
     {
         private readonly IOptions<AppSettings> settings;
-        private readonly ICacheService cacheService;
+        private readonly IPetFinderAuthService authService;
         private readonly HttpClient client;
 
-        public PetFinderApiService(IHttpClientFactory clientFactory, IOptions<AppSettings> settings, ICacheService cacheService)
+        public PetFinderApiService(IHttpClientFactory clientFactory, IOptions<AppSettings> settings, IPetFinderAuthService authService)
         {
             this.settings = settings;
-            this.cacheService = cacheService;
             this.client = clientFactory.CreateClient();
+            this.authService = authService;
         }
 
         public async Task<AnimalResult> GetPets(AnimalFilter filters)
@@ -38,43 +38,17 @@ namespace Petbase.DataService.Services
             return result;
         }
 
-        public async Task<string> GetAccessToken()
-        {         
-            var content = new StringContent(           
-                JsonConvert.SerializeObject(
-                    new
-                    {
-                        client_id = settings.Value.PetFinderApiKey,
-                        client_secret = settings.Value.PetFinderApiSecret,
-                        grant_type = "client_credentials"
-                    }), 
-            Encoding.UTF8, "application/json");
-                    
-            var request = await client.PostAsync(settings.Value.PetFinderAuthority, content);
-
-            if (request.IsSuccessStatusCode)
-            {
-                var responsestring = await request.Content.ReadAsStringAsync();
-                var token = JsonConvert.DeserializeObject<TokenResponse>(responsestring);
-                cacheService.SaveCache("accessToken", token.AccessToken);
-                return token.AccessToken;
-            }
-            else
-            {
-                //need to handle exception
-                return null;
-            }
-        }
 
         public async Task<HttpResponseMessage> Get(string filter)
         {
-            var token = GetTokenFromCache();
+            var token = authService.GetTokenFromCache();
             if (string.IsNullOrWhiteSpace(token))
             {
-                token = await GetAccessToken();
+                token = await authService.GetAccessToken();
             }
 
             var request = new HttpRequestMessage(HttpMethod.Get, filter);
+            client.BaseAddress = new Uri(settings.Value.PetFinderBaseUrl);
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             var response = await client.SendAsync(request);
             return response;
@@ -98,11 +72,6 @@ namespace Petbase.DataService.Services
 
             var queryUrl = $"{settings.Value.PetFinderAnimalUrl}?{string.Join('&', parameters.ToArray())}";
             return queryUrl;
-        }
-
-        public string GetTokenFromCache()
-        {
-            return cacheService.GetCache("accessToken")?.ToString();
         }
     }
 }

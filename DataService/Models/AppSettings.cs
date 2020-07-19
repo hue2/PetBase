@@ -7,5 +7,6 @@
         public string PetFinderApiSecret { get; set; }
         public string PetFinderAuthority { get; set; }
         public string PetFinderAnimalUrl { get; set; }
+        public string PetFinderBaseUrl { get; set; }
     }
 }

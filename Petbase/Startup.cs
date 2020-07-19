@@ -39,6 +39,7 @@ namespace Petbase
             services.AddScoped<IRepository, PetbaseRepository>();
             services.AddScoped<IPetFinderApiService, PetFinderApiService>();
             services.AddScoped<ICacheService, CacheService>();
+            services.AddScoped<IPetFinderAuthService, PetFinderAuthService>();
             services.AddAuthentication(options => {
                 options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
                 options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
