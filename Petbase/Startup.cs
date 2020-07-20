@@ -11,6 +11,7 @@ using Petbase.DataService.Interfaces;
 using Petbase.DataService.Models;
 using Petbase.DataService.Repository;
 using Petbase.DataService.Services;
+using Petbase.Exception;
 
 namespace Petbase
 {
@@ -67,7 +68,7 @@ namespace Petbase
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
+            app.ConfigureExceptionHandler();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSpaStaticFiles();

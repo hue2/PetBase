@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Caching.Memory;
 using Petbase.DataService.Interfaces;
+using System;
 
 namespace Petbase.DataService.Services
 {
@@ -23,9 +24,9 @@ namespace Petbase.DataService.Services
             return null;        
         }
 
-        public void SaveCache(object key, object value)
+        public void SaveCache(object key, object value, TimeSpan expireTime)
         {
-            this.cache.Set(key, value);
+            this.cache.Set(key, value, expireTime);
         }
     }
 }

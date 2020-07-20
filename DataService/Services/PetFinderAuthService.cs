@@ -45,13 +45,12 @@ namespace Petbase.DataService.Services
             {
                 var responsestring = await response.Content.ReadAsStringAsync();
                 var token = JsonConvert.DeserializeObject<TokenResponse>(responsestring);
-                cacheService.SaveCache("accessToken", token.AccessToken);
+                cacheService.SaveCache("accessToken", token.AccessToken, TimeSpan.FromSeconds(token.ExpiresIn));
                 return token.AccessToken;
             }
             else
             {
-                //need to handle exception
-                return null;
+                throw new Exception(response.ReasonPhrase);
             }
         }
 

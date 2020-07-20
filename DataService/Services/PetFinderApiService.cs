@@ -34,6 +34,10 @@ namespace Petbase.DataService.Services
                 var data = await response.Content.ReadAsStringAsync();
                 result = JsonConvert.DeserializeObject<AnimalResult>(data);
             }
+            else
+            {
+                throw new Exception(response.ReasonPhrase);
+            }
 
             return result;
         }
