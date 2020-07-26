@@ -23,6 +23,14 @@ export default {
       badge: {
         variant: 'info',
       },
-    },  
+    },
+    {
+      name: 'Adopt',
+      url: '/adopt/:breed',
+      icon: 'fa fa-hand-peace-o',
+      badge: {
+        variant: 'info',
+      },
+    },   
   ],
 };

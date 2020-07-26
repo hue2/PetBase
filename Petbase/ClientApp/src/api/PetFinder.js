@@ -7,4 +7,8 @@ export default class PetFinderApi {
     get = (breed, zipCode) => {
         return this.api.get(`${this.type}?breed=${breed}&zipCode=${zipCode}`);
     }
+
+    getNames = () => {
+        return this.api.get(`${this.type}/names`);
+    }
 }
