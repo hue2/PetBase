@@ -2,6 +2,8 @@ import React from 'react';
 import BootstrapTable from 'react-bootstrap-table-next';
 import { Card, Row, Col, CardBody } from 'reactstrap';
 import ToolkitProvider, { Search } from 'react-bootstrap-table2-toolkit';
+import './Table.scss';
+
 const { SearchBar } = Search;
 
 export default class Table extends React.PureComponent {
@@ -29,7 +31,6 @@ export default class Table extends React.PureComponent {
                                         <div id="table-wrapper"><SearchBar { ...props.searchProps } style={{ marginBottom: 20 }}/></div>
                                         <BootstrapTable { ...props.baseProps } 
                                             bordered={ false }
-                                            striped
                                             hover
                                         />
                                     </div>

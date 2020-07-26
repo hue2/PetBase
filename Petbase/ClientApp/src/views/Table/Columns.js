@@ -8,17 +8,31 @@ export default class Columns {
         text: 'id',
     },
     {
+        dataField: 'pictureUrl',
+        text: '',
+        headerStyle: () => {
+            return { width: "13%" };
+        },
+        formatter: (cell, row) => {
+            return (
+                <div className="img-container" onClick={(event) => func(event, row)}>
+                    <img src={cell} className="image"></img>           
+                </div>
+            )
+        }
+    },
+    {
         dataField: 'name',
         text: 'Name',
         headerStyle: () => {
-            return { width: "15%" };
+            return { width: "13%" };
         }
     },
     {
         dataField: 'lifeSpan',
         text: 'Life Span',
         headerStyle: () => {
-            return { width: "15%" };
+            return { width: "10%" };
         }
     },
     {
@@ -42,30 +56,5 @@ export default class Columns {
             return { width: "25%" };
         }
     },
-    {
-        dataField: 'pictureUrl',
-        text: 'Picture',
-        formatter: (cell, row) => {
-            return (
-                <div className="img-container" onClick={(event) => func(event, row)}>
-                    <img src={cell} className="image"></img>
-                    <div className="overlay">
-                        <div className="overlay-text">Click to enlarge</div>
-                    </div>
-                </div>
-            )
-        }
-    },
-    {
-        dataField: 'name',
-        text: 'Adopt',
-        formatter: (cell, row) => {
-            return (
-                <div className="img-container" id="adoptModal" onClick={(event) => adoptFunc(event, row)}>
-                    Adopt
-                </div>
-            )
-        }
-    }
 ]
 }

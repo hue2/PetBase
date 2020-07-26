@@ -3,7 +3,6 @@ import Table from './Table/Table';
 import CatApi from '../api/CatApi';
 import Modal from './Modal/Modal';
 import Columns from './Table/Columns';
-import AdoptModal from './Modal/AdoptModal';
 import PetFinderApi from '../api/PetFinder';
 
 export default class Cats extends React.PureComponent {
@@ -62,17 +61,6 @@ export default class Cats extends React.PureComponent {
                     toggle={this.toggleModal} 
                     imageUrl={this.state.selectedRow.pictureUrl} 
                     id="pictureModal"
-                />
-                <AdoptModal
-                    showModal={this.state.adoptModal} 
-                    title={this.state.selectedRow.name} 
-                    toggle={this.toggleModal} 
-                    imageUrl={this.state.selectedRow.pictureUrl} 
-                    onChange={this.handleChange}
-                    zipcode={this.state.zipcode}
-                    onSearch={this.handleSearch}
-                    id="adoptModal"
-                    animals={this.state.animals}
                 />
             </div>
         )

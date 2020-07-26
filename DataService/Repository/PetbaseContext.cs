@@ -25,69 +25,84 @@ namespace Petbase.DataService.Models
             {
                 entity.ToTable("cats", "petbase");
 
-                entity.Property(e => e.Id)
-                    .HasColumnName("﻿ID")
-                    .HasMaxLength(36)
+                entity.Property(e => e.Id)               
                     .IsUnicode(false)
                     .ValueGeneratedNever();
 
+
                 entity.Property(e => e.Coat).IsUnicode(false);
 
-                entity.Property(e => e.LifeSpan).IsUnicode(false);
+                entity.Property(e => e.LifeSpan)
+                    .HasColumnName("life_span")
+                    .IsUnicode(false);
 
                 entity.Property(e => e.Name).IsUnicode(false);
 
-                entity.Property(e => e.PictureUrl).IsUnicode(false);
+                entity.Property(e => e.PictureUrl)
+                    .HasColumnName("picture_url")
+                    .IsUnicode(false);
 
                 entity.Property(e => e.Size).IsUnicode(false);
 
-                entity.Property(e => e.UniqueTraits).IsUnicode(false);
+                entity.Property(e => e.UniqueTraits)
+                    .HasColumnName("unique_traits")
+                    .IsUnicode(false);
             });
 
             modelBuilder.Entity<Dogs>(entity =>
             {
                 entity.ToTable("dogs", "petbase");
 
-                entity.Property(e => e.Id)
-                    .HasColumnName("﻿ID")
-                    .HasMaxLength(36)
-                    .IsUnicode(false)
-                    .ValueGeneratedNever();
+                entity.Property(e => e.Id)                 
+                  .IsUnicode(false)
+                  .ValueGeneratedNever();
+
 
                 entity.Property(e => e.Coat).IsUnicode(false);
 
-                entity.Property(e => e.LifeSpan).IsUnicode(false);
+                entity.Property(e => e.LifeSpan)
+                    .HasColumnName("life_span")
+                    .IsUnicode(false);
 
                 entity.Property(e => e.Name).IsUnicode(false);
 
-                entity.Property(e => e.PictureUrl).IsUnicode(false);
+                entity.Property(e => e.PictureUrl)
+                    .HasColumnName("picture_url")
+                    .IsUnicode(false);
 
                 entity.Property(e => e.Size).IsUnicode(false);
 
-                entity.Property(e => e.UniqueTraits).IsUnicode(false);
+                entity.Property(e => e.UniqueTraits)
+                    .HasColumnName("unique_traits")
+                    .IsUnicode(false);
             });
 
             modelBuilder.Entity<Rabbits>(entity =>
             {
                 entity.ToTable("rabbits", "petbase");
 
-                entity.Property(e => e.Id)
-                    .HasColumnName("﻿ID")
-                    .HasMaxLength(36)
-                    .IsUnicode(false)
-                    .ValueGeneratedNever();
+                entity.Property(e => e.Id)                  
+                   .IsUnicode(false)
+                   .ValueGeneratedNever();
+
 
                 entity.Property(e => e.Coat).IsUnicode(false);
 
-                entity.Property(e => e.LifeSpan).IsUnicode(false);
+                entity.Property(e => e.LifeSpan)
+                    .HasColumnName("life_span")
+                    .IsUnicode(false);
 
                 entity.Property(e => e.Name).IsUnicode(false);
 
-                entity.Property(e => e.PictureUrl).IsUnicode(false);
+                entity.Property(e => e.PictureUrl)
+                    .HasColumnName("picture_url")
+                    .IsUnicode(false);
 
                 entity.Property(e => e.Size).IsUnicode(false);
 
-                entity.Property(e => e.UniqueTraits).IsUnicode(false);
+                entity.Property(e => e.UniqueTraits)
+                    .HasColumnName("unique_traits")
+                    .IsUnicode(false);
             });
         }
     }

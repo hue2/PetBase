@@ -20,7 +20,7 @@ namespace Petbase.Controllers
         [HttpGet]
         public IEnumerable<Cats> Get()
         {
-            return this.repository.GetAll<Cats>();
+            return repository.GetAll<Cats>();
         }
 
         [HttpGet("petfinder")]

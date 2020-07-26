@@ -7,6 +7,7 @@
         public string Name { get; set; }
         public string Description { get; set; }
         public string Status { get; set; }
+        public Photos Photos { get; set; }
         public Contact Contact { get; set; }
     }
 }

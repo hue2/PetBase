@@ -18,7 +18,7 @@ namespace Petbase.Controllers
         [HttpGet]
         public IEnumerable<Dogs> Get()
         {
-            return this.repository.GetAll<Dogs>();
+            return repository.GetAll<Dogs>();
         }
     }
 }

@@ -16,12 +16,10 @@ namespace Petbase.DataService.Services
         public object GetCache(object key) 
         {
             object token;
-           
-            if (cache.TryGetValue(key, out token))
-            {
-                return token;
-            }
-            return null;        
+
+            cache.TryGetValue(key, out token);
+                      
+            return token;        
         }
 
         public void SaveCache(object key, object value, TimeSpan expireTime)
