@@ -22,11 +22,5 @@ namespace Petbase.Controllers
         {
             return repository.GetAll<Cats>();
         }
-
-        [HttpGet("petfinder")]
-        public dynamic GetPets()
-        {
-            return service.GetPets(null);
-        }
     }
 }
