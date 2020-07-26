@@ -1,8 +1,6 @@
-﻿using DataService.Interfaces;
-using System;
-using System.Collections.Generic;
+﻿using Petbase.DataService.Interfaces;
 
-namespace DataService.Models
+namespace Petbase.DataService.Models
 {
     public partial class Cats : IEntity
     {

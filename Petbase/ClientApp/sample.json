@@ -1,0 +1,1719 @@
+{
+    "animals": [
+        {
+            "id": 48597792,
+            "organization_id": "TX1950",
+            "url": "https:\/\/www.petfinder.com\/dog\/miss-tipsy-48597792\/tx\/houston\/houston-pets-alive-tx1950\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Labrador Retriever",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Adult",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [
+                "Dog Friendly"
+            ],
+            "name": "Miss Tipsy",
+            "description": null,
+            "organization_animal_id": "HPA-A-6147",
+            "photos": [],
+            "primary_photo_cropped": null,
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-26T00:05:18+0000",
+            "published_at": "2020-07-26T00:05:18+0000",
+            "distance": 11.3532,
+            "contact": {
+                "email": "adopt@houstonpetsalive.org",
+                "phone": "(832) 786-9310",
+                "address": {
+                    "address1": null,
+                    "address2": null,
+                    "city": "Houston",
+                    "state": "TX",
+                    "postcode": "77092",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597792"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx1950"
+                }
+            }
+        },
+        {
+            "id": 48597531,
+            "organization_id": "TX403",
+            "url": "https:\/\/www.petfinder.com\/dog\/lucy-48597531\/tx\/houston\/houston-spca-tx403\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Labrador Retriever",
+                "secondary": null,
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Senior",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "Lucy",
+            "description": "My name is Lucy and I am a senior dog looking for a loving home to settle down. I am...",
+            "organization_animal_id": "405656",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597531\/1\/?bust=1595721340\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597531\/1\/?bust=1595721340\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597531\/1\/?bust=1595721340\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597531\/1\/?bust=1595721340"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597531\/3\/?bust=1595721340\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597531\/3\/?bust=1595721340\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597531\/3\/?bust=1595721340\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597531\/3\/?bust=1595721340"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597531\/2\/?bust=1595721340\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597531\/2\/?bust=1595721340\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597531\/2\/?bust=1595721340\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597531\/2\/?bust=1595721340"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597531\/1\/?bust=1595721340\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597531\/1\/?bust=1595721340\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597531\/1\/?bust=1595721340\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597531\/1\/?bust=1595721340"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T23:45:51+0000",
+            "published_at": "2020-07-25T23:45:51+0000",
+            "distance": 6.2501,
+            "contact": {
+                "email": "info@houstonspca.org",
+                "phone": "(713) 869-7722",
+                "address": {
+                    "address1": "7007 Old Katy Rd",
+                    "address2": null,
+                    "city": "Houston",
+                    "state": "TX",
+                    "postcode": "77024",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597531"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx403"
+                }
+            }
+        },
+        {
+            "id": 48597473,
+            "organization_id": "TX403",
+            "url": "https:\/\/www.petfinder.com\/cat\/melinda-48597473\/tx\/houston\/houston-spca-tx403\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "Melinda",
+            "description": "Primary Color: Grey Tabby Weight: 7.18lbs Age: 1yrs 0mths 0wks Animal has been Spayed",
+            "organization_animal_id": "418942",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597473\/1\/?bust=1595720412\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597473\/1\/?bust=1595720412\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597473\/1\/?bust=1595720412\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597473\/1\/?bust=1595720412"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597473\/1\/?bust=1595720412\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597473\/1\/?bust=1595720412\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597473\/1\/?bust=1595720412\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597473\/1\/?bust=1595720412"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T23:30:11+0000",
+            "published_at": "2020-07-25T23:30:11+0000",
+            "distance": 6.2501,
+            "contact": {
+                "email": "info@houstonspca.org",
+                "phone": "(713) 869-7722",
+                "address": {
+                    "address1": "7007 Old Katy Rd",
+                    "address2": null,
+                    "city": "Houston",
+                    "state": "TX",
+                    "postcode": "77024",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597473"
+                },
+                "type": {
+                    "href": "\/v2\/types\/cat"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx403"
+                }
+            }
+        },
+        {
+            "id": 48597472,
+            "organization_id": "TX403",
+            "url": "https:\/\/www.petfinder.com\/cat\/mindy-48597472\/tx\/houston\/houston-spca-tx403\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "Mindy",
+            "description": "Primary Color: Calico Weight: 3.56lbs Age: 0yrs 4mths 0wks Animal has been Spayed",
+            "organization_animal_id": "418889",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597472\/1\/?bust=1595720416\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597472\/1\/?bust=1595720416\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597472\/1\/?bust=1595720416\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597472\/1\/?bust=1595720416"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597472\/1\/?bust=1595720416\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597472\/1\/?bust=1595720416\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597472\/1\/?bust=1595720416\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597472\/1\/?bust=1595720416"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T23:30:11+0000",
+            "published_at": "2020-07-25T23:30:11+0000",
+            "distance": 6.2501,
+            "contact": {
+                "email": "info@houstonspca.org",
+                "phone": "(713) 869-7722",
+                "address": {
+                    "address1": "7007 Old Katy Rd",
+                    "address2": null,
+                    "city": "Houston",
+                    "state": "TX",
+                    "postcode": "77024",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597472"
+                },
+                "type": {
+                    "href": "\/v2\/types\/cat"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx403"
+                }
+            }
+        },
+        {
+            "id": 48597432,
+            "organization_id": "TX403",
+            "url": "https:\/\/www.petfinder.com\/cat\/brenner-48597432\/tx\/houston\/houston-spca-tx403\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Male",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "Brenner",
+            "description": "Primary Color: Black Weight: 3lbs Age: 0yrs 3mths 0wks Animal has been Neutered",
+            "organization_animal_id": "413450",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597432\/1\/?bust=1595719626\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597432\/1\/?bust=1595719626\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597432\/1\/?bust=1595719626\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597432\/1\/?bust=1595719626"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597432\/1\/?bust=1595719626\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597432\/1\/?bust=1595719626\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597432\/1\/?bust=1595719626\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597432\/1\/?bust=1595719626"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T23:17:28+0000",
+            "published_at": "2020-07-25T23:17:28+0000",
+            "distance": 6.2501,
+            "contact": {
+                "email": "info@houstonspca.org",
+                "phone": "(713) 869-7722",
+                "address": {
+                    "address1": "7007 Old Katy Rd",
+                    "address2": null,
+                    "city": "Houston",
+                    "state": "TX",
+                    "postcode": "77024",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597432"
+                },
+                "type": {
+                    "href": "\/v2\/types\/cat"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx403"
+                }
+            }
+        },
+        {
+            "id": 48597430,
+            "organization_id": "TX403",
+            "url": "https:\/\/www.petfinder.com\/cat\/bolt-48597430\/tx\/houston\/houston-spca-tx403\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Male",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "Bolt",
+            "description": "Primary Color: Black Weight: 2.81lbs Age: 0yrs 3mths 0wks Animal has been Neutered",
+            "organization_animal_id": "413448",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597430\/1\/?bust=1595719630\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597430\/1\/?bust=1595719630\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597430\/1\/?bust=1595719630\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597430\/1\/?bust=1595719630"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597430\/1\/?bust=1595719630\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597430\/1\/?bust=1595719630\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597430\/1\/?bust=1595719630\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597430\/1\/?bust=1595719630"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T23:17:28+0000",
+            "published_at": "2020-07-25T23:17:28+0000",
+            "distance": 6.2501,
+            "contact": {
+                "email": "info@houstonspca.org",
+                "phone": "(713) 869-7722",
+                "address": {
+                    "address1": "7007 Old Katy Rd",
+                    "address2": null,
+                    "city": "Houston",
+                    "state": "TX",
+                    "postcode": "77024",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597430"
+                },
+                "type": {
+                    "href": "\/v2\/types\/cat"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx403"
+                }
+            }
+        },
+        {
+            "id": 48597431,
+            "organization_id": "TX403",
+            "url": "https:\/\/www.petfinder.com\/cat\/viktor-48597431\/tx\/houston\/houston-spca-tx403\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Male",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "Viktor",
+            "description": "Primary Color: Black Weight: 3.12lbs Age: 0yrs 3mths 0wks Animal has been Neutered",
+            "organization_animal_id": "413447",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597431\/1\/?bust=1595719631\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597431\/1\/?bust=1595719631\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597431\/1\/?bust=1595719631\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597431\/1\/?bust=1595719631"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597431\/1\/?bust=1595719631\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597431\/1\/?bust=1595719631\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597431\/1\/?bust=1595719631\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597431\/1\/?bust=1595719631"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T23:17:28+0000",
+            "published_at": "2020-07-25T23:17:28+0000",
+            "distance": 6.2501,
+            "contact": {
+                "email": "info@houstonspca.org",
+                "phone": "(713) 869-7722",
+                "address": {
+                    "address1": "7007 Old Katy Rd",
+                    "address2": null,
+                    "city": "Houston",
+                    "state": "TX",
+                    "postcode": "77024",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597431"
+                },
+                "type": {
+                    "href": "\/v2\/types\/cat"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx403"
+                }
+            }
+        },
+        {
+            "id": 48597370,
+            "organization_id": "TX1913",
+            "url": "https:\/\/www.petfinder.com\/dog\/salvatore-48597370\/tx\/katy\/almost-home-pet-rescue-tx1913\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Labrador Retriever",
+                "secondary": null,
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Male",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "SALVATORE",
+            "description": "Est. dob: 5\/11\/2020\nSalvatore and his siblings were born into the rescue on 05\/11\/20. He is a very sweet and...",
+            "organization_animal_id": "15883847",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597370\/1\/?bust=1595719278\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597370\/1\/?bust=1595719278\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597370\/1\/?bust=1595719278\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597370\/1\/?bust=1595719278"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597370\/2\/?bust=1595719278\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597370\/2\/?bust=1595719278\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597370\/2\/?bust=1595719278\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597370\/2\/?bust=1595719278"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597370\/3\/?bust=1595719278\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597370\/3\/?bust=1595719278\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597370\/3\/?bust=1595719278\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597370\/3\/?bust=1595719278"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597370\/1\/?bust=1595719278\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597370\/1\/?bust=1595719278\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597370\/1\/?bust=1595719278\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597370\/1\/?bust=1595719278"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T23:11:15+0000",
+            "published_at": "2020-07-25T23:11:15+0000",
+            "distance": 14.3176,
+            "contact": {
+                "email": "rescueforlife@hotmail.com",
+                "phone": null,
+                "address": {
+                    "address1": "MAILING ADDRESS ONLY: 6725 S Fry Road",
+                    "address2": "Suite 700-297",
+                    "city": "Katy",
+                    "state": "TX",
+                    "postcode": "77494",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597370"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx1913"
+                }
+            }
+        },
+        {
+            "id": 48597174,
+            "organization_id": "TX1913",
+            "url": "https:\/\/www.petfinder.com\/dog\/santino-48597174\/tx\/katy\/almost-home-pet-rescue-tx1913\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Labrador Retriever",
+                "secondary": null,
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Male",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "SANTINO",
+            "description": "Est. dob: 5\/11\/2020\nSantino and his siblings were born into the rescue on 05\/11\/20. Santino is a people dog. He...",
+            "organization_animal_id": "15883840",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597174\/1\/?bust=1595718393\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597174\/1\/?bust=1595718393\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597174\/1\/?bust=1595718393\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597174\/1\/?bust=1595718393"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597174\/2\/?bust=1595718393\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597174\/2\/?bust=1595718393\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597174\/2\/?bust=1595718393\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597174\/2\/?bust=1595718393"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597174\/3\/?bust=1595718396\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597174\/3\/?bust=1595718396\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597174\/3\/?bust=1595718396\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597174\/3\/?bust=1595718396"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597174\/1\/?bust=1595718393\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597174\/1\/?bust=1595718393\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597174\/1\/?bust=1595718393\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597174\/1\/?bust=1595718393"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T22:56:25+0000",
+            "published_at": "2020-07-25T22:56:25+0000",
+            "distance": 14.3176,
+            "contact": {
+                "email": "rescueforlife@hotmail.com",
+                "phone": null,
+                "address": {
+                    "address1": "MAILING ADDRESS ONLY: 6725 S Fry Road",
+                    "address2": "Suite 700-297",
+                    "city": "Katy",
+                    "state": "TX",
+                    "postcode": "77494",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597174"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx1913"
+                }
+            }
+        },
+        {
+            "id": 48597176,
+            "organization_id": "TX1913",
+            "url": "https:\/\/www.petfinder.com\/dog\/segundo-48597176\/tx\/katy\/almost-home-pet-rescue-tx1913\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Labrador Retriever",
+                "secondary": "Shepherd",
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Male",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "SEGUNDO",
+            "description": "Est. dob: 5\/11\/2020\nMeet Segundo! Segundo and his siblings were born into the rescue on 05\/11\/20. Segundo is a sweet...",
+            "organization_animal_id": "15883830",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597176\/1\/?bust=1595718397\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597176\/1\/?bust=1595718397\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597176\/1\/?bust=1595718397\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597176\/1\/?bust=1595718397"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597176\/2\/?bust=1595718394\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597176\/2\/?bust=1595718394\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597176\/2\/?bust=1595718394\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597176\/2\/?bust=1595718394"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597176\/3\/?bust=1595718397\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597176\/3\/?bust=1595718397\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597176\/3\/?bust=1595718397\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597176\/3\/?bust=1595718397"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597176\/1\/?bust=1595718397\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597176\/1\/?bust=1595718397\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597176\/1\/?bust=1595718397\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597176\/1\/?bust=1595718397"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T22:56:25+0000",
+            "published_at": "2020-07-25T22:56:25+0000",
+            "distance": 14.3176,
+            "contact": {
+                "email": "rescueforlife@hotmail.com",
+                "phone": null,
+                "address": {
+                    "address1": "MAILING ADDRESS ONLY: 6725 S Fry Road",
+                    "address2": "Suite 700-297",
+                    "city": "Katy",
+                    "state": "TX",
+                    "postcode": "77494",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597176"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx1913"
+                }
+            }
+        },
+        {
+            "id": 48597175,
+            "organization_id": "TX1913",
+            "url": "https:\/\/www.petfinder.com\/dog\/sabato-48597175\/tx\/katy\/almost-home-pet-rescue-tx1913\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Labrador Retriever",
+                "secondary": null,
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Male",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "SABATO",
+            "description": "Est. dob: 5\/11\/2020\nSabato and his siblings were born into the rescue on 05\/11\/20. Sabato is a very sweet boy...",
+            "organization_animal_id": "15883846",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597175\/1\/?bust=1595719341\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597175\/1\/?bust=1595719341\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597175\/1\/?bust=1595719341\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597175\/1\/?bust=1595719341"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597175\/3\/?bust=1595719278\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597175\/3\/?bust=1595719278\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597175\/3\/?bust=1595719278\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597175\/3\/?bust=1595719278"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597175\/2\/?bust=1595719278\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597175\/2\/?bust=1595719278\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597175\/2\/?bust=1595719278\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597175\/2\/?bust=1595719278"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597175\/1\/?bust=1595719341\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597175\/1\/?bust=1595719341\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597175\/1\/?bust=1595719341\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597175\/1\/?bust=1595719341"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T22:56:25+0000",
+            "published_at": "2020-07-25T22:56:25+0000",
+            "distance": 14.3176,
+            "contact": {
+                "email": "rescueforlife@hotmail.com",
+                "phone": null,
+                "address": {
+                    "address1": "MAILING ADDRESS ONLY: 6725 S Fry Road",
+                    "address2": "Suite 700-297",
+                    "city": "Katy",
+                    "state": "TX",
+                    "postcode": "77494",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597175"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx1913"
+                }
+            }
+        },
+        {
+            "id": 48597095,
+            "organization_id": "TX1870",
+            "url": "https:\/\/www.petfinder.com\/dog\/tessa-48597095\/tx\/cypress\/cypress-lucky-mutt-rescue-tx1870\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Dalmatian",
+                "secondary": null,
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Harlequin",
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": "Short",
+            "attributes": {
+                "spayed_neutered": false,
+                "house_trained": true,
+                "declawed": null,
+                "special_needs": true,
+                "shots_current": true
+            },
+            "environment": {
+                "children": true,
+                "dogs": true,
+                "cats": true
+            },
+            "tags": [],
+            "name": "Tessa",
+            "description": "Equal parts sweet and sassy, Miss Tessa is a pretty girl. She loves wrestling with her foster fur brothers and...",
+            "organization_animal_id": null,
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/2\/?bust=1595717046\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/2\/?bust=1595717046\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/2\/?bust=1595717046\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/2\/?bust=1595717046"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/1\/?bust=1595717044\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/1\/?bust=1595717044\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/1\/?bust=1595717044\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/1\/?bust=1595717044"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/3\/?bust=1595717049\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/3\/?bust=1595717049\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/3\/?bust=1595717049\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/3\/?bust=1595717049"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/4\/?bust=1595717051\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/4\/?bust=1595717051\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/4\/?bust=1595717051\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/4\/?bust=1595717051"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/5\/?bust=1595717062\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/5\/?bust=1595717062\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/5\/?bust=1595717062\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/5\/?bust=1595717062"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/2\/?bust=1595717046\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/2\/?bust=1595717046\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/2\/?bust=1595717046\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597095\/2\/?bust=1595717046"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T22:46:33+0000",
+            "published_at": "2020-07-25T22:46:33+0000",
+            "distance": 14.3366,
+            "contact": {
+                "email": "luckymuttrescuecypress@gmail.com",
+                "phone": null,
+                "address": {
+                    "address1": null,
+                    "address2": null,
+                    "city": "Cypress",
+                    "state": "TX",
+                    "postcode": "77433",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597095"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx1870"
+                }
+            }
+        },
+        {
+            "id": 48597124,
+            "organization_id": "TX1913",
+            "url": "https:\/\/www.petfinder.com\/dog\/sonora-48597124\/tx\/katy\/almost-home-pet-rescue-tx1913\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Labrador Retriever",
+                "secondary": null,
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "SONORA",
+            "description": "Est. dob: 5\/11\/2020\nSonora and her siblings were born into the rescue on 05\/11\/20. Sonora is a sweet girl with...",
+            "organization_animal_id": "15883813",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597124\/1\/?bust=1595717488\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597124\/1\/?bust=1595717488\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597124\/1\/?bust=1595717488\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597124\/1\/?bust=1595717488"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597124\/3\/?bust=1595717488\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597124\/3\/?bust=1595717488\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597124\/3\/?bust=1595717488\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597124\/3\/?bust=1595717488"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597124\/2\/?bust=1595717488\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597124\/2\/?bust=1595717488\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597124\/2\/?bust=1595717488\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597124\/2\/?bust=1595717488"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597124\/1\/?bust=1595717488\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597124\/1\/?bust=1595717488\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597124\/1\/?bust=1595717488\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597124\/1\/?bust=1595717488"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T22:41:23+0000",
+            "published_at": "2020-07-25T22:41:23+0000",
+            "distance": 14.3176,
+            "contact": {
+                "email": "rescueforlife@hotmail.com",
+                "phone": null,
+                "address": {
+                    "address1": "MAILING ADDRESS ONLY: 6725 S Fry Road",
+                    "address2": "Suite 700-297",
+                    "city": "Katy",
+                    "state": "TX",
+                    "postcode": "77494",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597124"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx1913"
+                }
+            }
+        },
+        {
+            "id": 48597125,
+            "organization_id": "TX1913",
+            "url": "https:\/\/www.petfinder.com\/dog\/sisko-48597125\/tx\/katy\/almost-home-pet-rescue-tx1913\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Labrador Retriever",
+                "secondary": null,
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Male",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "SISKO",
+            "description": "Est. dob: 5\/11\/2020\nMeet Sisko! Sisko and his siblings were born into the rescue on 05\/11\/20. He is a goofy...",
+            "organization_animal_id": "15883822",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597125\/1\/?bust=1595718396\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597125\/1\/?bust=1595718396\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597125\/1\/?bust=1595718396\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597125\/1\/?bust=1595718396"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597125\/3\/?bust=1595718393\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597125\/3\/?bust=1595718393\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597125\/3\/?bust=1595718393\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597125\/3\/?bust=1595718393"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597125\/2\/?bust=1595718395\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597125\/2\/?bust=1595718395\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597125\/2\/?bust=1595718395\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597125\/2\/?bust=1595718395"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597125\/1\/?bust=1595718396\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597125\/1\/?bust=1595718396\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597125\/1\/?bust=1595718396\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597125\/1\/?bust=1595718396"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T22:41:23+0000",
+            "published_at": "2020-07-25T22:41:23+0000",
+            "distance": 14.3176,
+            "contact": {
+                "email": "rescueforlife@hotmail.com",
+                "phone": null,
+                "address": {
+                    "address1": "MAILING ADDRESS ONLY: 6725 S Fry Road",
+                    "address2": "Suite 700-297",
+                    "city": "Katy",
+                    "state": "TX",
+                    "postcode": "77494",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597125"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx1913"
+                }
+            }
+        },
+        {
+            "id": 48597074,
+            "organization_id": "TX405",
+            "url": "https:\/\/www.petfinder.com\/dog\/gunther-48597074\/tx\/league-city\/league-city-animal-shelter-tx405\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "German Shepherd Dog",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Yellow \/ Tan \/ Blond \/ Fawn",
+                "secondary": "Black",
+                "tertiary": null
+            },
+            "age": "Adult",
+            "gender": "Male",
+            "size": "Large",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": false,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "gunther",
+            "description": null,
+            "organization_animal_id": "LCPA-A-6434",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597074\/1\/?bust=1595716841\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597074\/1\/?bust=1595716841\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597074\/1\/?bust=1595716841\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597074\/1\/?bust=1595716841"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597074\/1\/?bust=1595716841\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597074\/1\/?bust=1595716841\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597074\/1\/?bust=1595716841\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597074\/1\/?bust=1595716841"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T22:30:33+0000",
+            "published_at": "2020-07-25T22:30:33+0000",
+            "distance": 32.5583,
+            "contact": {
+                "email": "animalcontrol@leaguecity.com",
+                "phone": "(281) 554-1377",
+                "address": {
+                    "address1": "821 North Kansas Street",
+                    "address2": "(Off FM 518 - east of Hwy 3)",
+                    "city": "League City",
+                    "state": "TX",
+                    "postcode": "77573",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597074"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx405"
+                }
+            }
+        },
+        {
+            "id": 48597073,
+            "organization_id": "TX405",
+            "url": "https:\/\/www.petfinder.com\/dog\/lena-48597073\/tx\/league-city\/league-city-animal-shelter-tx405\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "German Shepherd Dog",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Black",
+                "secondary": "Yellow \/ Tan \/ Blond \/ Fawn",
+                "tertiary": null
+            },
+            "age": "Adult",
+            "gender": "Female",
+            "size": "Large",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": false,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "Lena",
+            "description": null,
+            "organization_animal_id": "LCPA-A-6436",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597073\/1\/?bust=1595716842\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597073\/1\/?bust=1595716842\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597073\/1\/?bust=1595716842\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597073\/1\/?bust=1595716842"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597073\/1\/?bust=1595716842\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597073\/1\/?bust=1595716842\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597073\/1\/?bust=1595716842\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597073\/1\/?bust=1595716842"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T22:30:33+0000",
+            "published_at": "2020-07-25T22:30:33+0000",
+            "distance": 32.5583,
+            "contact": {
+                "email": "animalcontrol@leaguecity.com",
+                "phone": "(281) 554-1377",
+                "address": {
+                    "address1": "821 North Kansas Street",
+                    "address2": "(Off FM 518 - east of Hwy 3)",
+                    "city": "League City",
+                    "state": "TX",
+                    "postcode": "77573",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597073"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx405"
+                }
+            }
+        },
+        {
+            "id": 48597075,
+            "organization_id": "TX405",
+            "url": "https:\/\/www.petfinder.com\/dog\/herschel-48597075\/tx\/league-city\/league-city-animal-shelter-tx405\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "German Shepherd Dog",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": "Black",
+                "secondary": "Yellow \/ Tan \/ Blond \/ Fawn",
+                "tertiary": null
+            },
+            "age": "Senior",
+            "gender": "Male",
+            "size": "Large",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": false,
+                "house_trained": false,
+                "declawed": null,
+                "special_needs": false,
+                "shots_current": true
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "Herschel",
+            "description": null,
+            "organization_animal_id": "LCPA-A-6435",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597075\/1\/?bust=1595716843\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597075\/1\/?bust=1595716843\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597075\/1\/?bust=1595716843\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597075\/1\/?bust=1595716843"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597075\/1\/?bust=1595716843\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597075\/1\/?bust=1595716843\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597075\/1\/?bust=1595716843\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597075\/1\/?bust=1595716843"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T22:30:33+0000",
+            "published_at": "2020-07-25T22:30:33+0000",
+            "distance": 32.5583,
+            "contact": {
+                "email": "animalcontrol@leaguecity.com",
+                "phone": "(281) 554-1377",
+                "address": {
+                    "address1": "821 North Kansas Street",
+                    "address2": "(Off FM 518 - east of Hwy 3)",
+                    "city": "League City",
+                    "state": "TX",
+                    "postcode": "77573",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597075"
+                },
+                "type": {
+                    "href": "\/v2\/types\/dog"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx405"
+                }
+            }
+        },
+        {
+            "id": 48597068,
+            "organization_id": "TX403",
+            "url": "https:\/\/www.petfinder.com\/cat\/lil-rudy-48597068\/tx\/houston\/houston-spca-tx403\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Male",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "Lil Rudy",
+            "description": "Primary Color: Brown Tabby Weight: 2.62lbs Age: 0yrs 3mths 2wks Animal has been Neutered",
+            "organization_animal_id": "412322",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597068\/1\/?bust=1595716833\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597068\/1\/?bust=1595716833\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597068\/1\/?bust=1595716833\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597068\/1\/?bust=1595716833"
+                },
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597068\/2\/?bust=1595716831\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597068\/2\/?bust=1595716831\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597068\/2\/?bust=1595716831\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597068\/2\/?bust=1595716831"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597068\/1\/?bust=1595716833\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597068\/1\/?bust=1595716833\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597068\/1\/?bust=1595716833\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597068\/1\/?bust=1595716833"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T22:30:26+0000",
+            "published_at": "2020-07-25T22:30:26+0000",
+            "distance": 6.2501,
+            "contact": {
+                "email": "info@houstonspca.org",
+                "phone": "(713) 869-7722",
+                "address": {
+                    "address1": "7007 Old Katy Rd",
+                    "address2": null,
+                    "city": "Houston",
+                    "state": "TX",
+                    "postcode": "77024",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597068"
+                },
+                "type": {
+                    "href": "\/v2\/types\/cat"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx403"
+                }
+            }
+        },
+        {
+            "id": 48597067,
+            "organization_id": "TX403",
+            "url": "https:\/\/www.petfinder.com\/cat\/phoebe-48597067\/tx\/houston\/houston-spca-tx403\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Baby",
+            "gender": "Female",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "Phoebe",
+            "description": "Primary Color: White Weight: 4.12lbs Age: 0yrs 4mths 1wks Animal has been Spayed",
+            "organization_animal_id": "410105",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597067\/1\/?bust=1595716835\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597067\/1\/?bust=1595716835\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597067\/1\/?bust=1595716835\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597067\/1\/?bust=1595716835"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597067\/1\/?bust=1595716835\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597067\/1\/?bust=1595716835\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597067\/1\/?bust=1595716835\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597067\/1\/?bust=1595716835"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T22:30:26+0000",
+            "published_at": "2020-07-25T22:30:26+0000",
+            "distance": 6.2501,
+            "contact": {
+                "email": "info@houstonspca.org",
+                "phone": "(713) 869-7722",
+                "address": {
+                    "address1": "7007 Old Katy Rd",
+                    "address2": null,
+                    "city": "Houston",
+                    "state": "TX",
+                    "postcode": "77024",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597067"
+                },
+                "type": {
+                    "href": "\/v2\/types\/cat"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx403"
+                }
+            }
+        },
+        {
+            "id": 48597069,
+            "organization_id": "TX403",
+            "url": "https:\/\/www.petfinder.com\/cat\/demitry-48597069\/tx\/houston\/houston-spca-tx403\/?referrer_id=7f826485-7714-4dc2-80db-c504a1515121",
+            "type": "Cat",
+            "species": "Cat",
+            "breeds": {
+                "primary": "Domestic Short Hair",
+                "secondary": null,
+                "mixed": true,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
+            },
+            "age": "Young",
+            "gender": "Male",
+            "size": "Medium",
+            "coat": null,
+            "attributes": {
+                "spayed_neutered": true,
+                "house_trained": false,
+                "declawed": false,
+                "special_needs": false,
+                "shots_current": false
+            },
+            "environment": {
+                "children": null,
+                "dogs": null,
+                "cats": null
+            },
+            "tags": [],
+            "name": "Demitry",
+            "description": "Primary Color: Black Secondary Color: White Weight: 8.5lbs Age: 1yrs 6mths 0wks Animal has been Neutered",
+            "organization_animal_id": "419013",
+            "photos": [
+                {
+                    "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597069\/1\/?bust=1595716827\u0026width=100",
+                    "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597069\/1\/?bust=1595716827\u0026width=300",
+                    "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597069\/1\/?bust=1595716827\u0026width=600",
+                    "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597069\/1\/?bust=1595716827"
+                }
+            ],
+            "primary_photo_cropped": {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597069\/1\/?bust=1595716827\u0026width=300",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597069\/1\/?bust=1595716827\u0026width=450",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597069\/1\/?bust=1595716827\u0026width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/48597069\/1\/?bust=1595716827"
+            },
+            "videos": [],
+            "status": "adoptable",
+            "status_changed_at": "2020-07-25T22:30:26+0000",
+            "published_at": "2020-07-25T22:30:26+0000",
+            "distance": 6.2501,
+            "contact": {
+                "email": "info@houstonspca.org",
+                "phone": "(713) 869-7722",
+                "address": {
+                    "address1": "7007 Old Katy Rd",
+                    "address2": null,
+                    "city": "Houston",
+                    "state": "TX",
+                    "postcode": "77024",
+                    "country": "US"
+                }
+            },
+            "_links": {
+                "self": {
+                    "href": "\/v2\/animals\/48597069"
+                },
+                "type": {
+                    "href": "\/v2\/types\/cat"
+                },
+                "organization": {
+                    "href": "\/v2\/organizations\/tx403"
+                }
+            }
+        }
+    ],
+    "pagination": {
+        "count_per_page": 20,
+        "total_count": 4391,
+        "current_page": 1,
+        "total_pages": 220,
+        "_links": {
+            "next": {
+                "href": "\/v2\/animals?distance=50\u0026location=77072\u0026page=2"
+            }
+        }
+    }
+}

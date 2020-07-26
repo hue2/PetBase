@@ -1,6 +1,6 @@
-﻿using DataService.Interfaces;
+﻿using Petbase.DataService.Interfaces;
 
-namespace DataService.Models
+namespace Petbase.DataService.Models
 {
     public partial class Dogs : IEntity
     {

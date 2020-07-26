@@ -1,6 +1,6 @@
-﻿using DataService.Interfaces;
-using DataService.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Petbase.DataService.Interfaces;
+using Petbase.DataService.Models;
 using System.Collections.Generic;
 
 namespace Petbase.Controllers
@@ -18,7 +18,7 @@ namespace Petbase.Controllers
         [HttpGet]
         public IEnumerable<Rabbits> Get()
         {
-            return this.repository.GetAll<Rabbits>();
+            return repository.GetAll<Rabbits>();
         }
     }
 }

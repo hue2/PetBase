@@ -1,17 +1,17 @@
-using DataService.Interfaces;
-using DataService.Models;
-using DataService.Repository;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using MySql.Data.MySqlClient;
+using Petbase.DataService.Interfaces;
+using Petbase.DataService.Models;
+using Petbase.DataService.Repository;
+using Petbase.DataService.Services;
+using Petbase.Exception;
 
 namespace Petbase
 {
@@ -28,15 +28,19 @@ namespace Petbase
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-
+            services.AddMemoryCache();
+            services.AddHttpClient();
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
                 configuration.RootPath = "ClientApp/build";
             });
-
+            services.Configure<AppSettings>(options => Configuration.GetSection("AppSettings").Bind(options));
             services.AddDbContext<PetbaseContext>(options => options.UseMySQL(Configuration["AppSettings:ConnectionString"]));
             services.AddScoped<IRepository, PetbaseRepository>();
+            services.AddScoped<IPetFinderApiService, PetFinderApiService>();
+            services.AddScoped<ICacheService, CacheService>();
+            services.AddScoped<IPetFinderAuthService, PetFinderAuthService>();
             services.AddAuthentication(options => {
                 options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
                 options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
@@ -64,7 +68,7 @@ namespace Petbase
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
+            app.ConfigureExceptionHandler();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSpaStaticFiles();

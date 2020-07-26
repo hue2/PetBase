@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace DataService.Interfaces
+namespace Petbase.DataService.Interfaces
 {
     public interface IRepository
     {

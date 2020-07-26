@@ -1,9 +1,9 @@
-﻿using DataService.Interfaces;
-using DataService.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using Petbase.DataService.Interfaces;
+using Petbase.DataService.Models;
 using System.Linq;
 
-namespace DataService.Repository
+namespace Petbase.DataService.Repository
 {
     public class PetbaseRepository : IRepository
     {
@@ -16,7 +16,7 @@ namespace DataService.Repository
 
         public IQueryable<IEntity> GetAll<IEntity>() where IEntity : class
         {
-            return this.context.Set<IEntity>().AsNoTracking();
+            return context.Set<IEntity>().AsNoTracking();
         }
     }
 }

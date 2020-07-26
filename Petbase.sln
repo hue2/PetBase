@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petbase", "Petbase\Petbase.csproj", "{80565548-E14D-41BE-834D-763EF229F9DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Petbase", "Petbase\Petbase.csproj", "{80565548-E14D-41BE-834D-763EF229F9DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService", "DataService\DataService.csproj", "{AFD059D3-0817-497C-8DEC-55960DA3B73E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Petbase.DataService", "DataService\Petbase.DataService.csproj", "{AFD059D3-0817-497C-8DEC-55960DA3B73E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petbase.DataService.Tests", "Petbase.DataService.Tests\Petbase.DataService.Tests.csproj", "{7A22E74A-BC10-4857-A43A-E60A5164C55D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AFD059D3-0817-497C-8DEC-55960DA3B73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFD059D3-0817-497C-8DEC-55960DA3B73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFD059D3-0817-497C-8DEC-55960DA3B73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A22E74A-BC10-4857-A43A-E60A5164C55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A22E74A-BC10-4857-A43A-E60A5164C55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A22E74A-BC10-4857-A43A-E60A5164C55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A22E74A-BC10-4857-A43A-E60A5164C55D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
