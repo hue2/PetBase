@@ -40,19 +40,7 @@ namespace Petbase
             services.AddScoped<IRepository, PetbaseRepository>();
             services.AddScoped<IPetFinderApiService, PetFinderApiService>();
             services.AddScoped<ICacheService, CacheService>();
-            services.AddScoped<IPetFinderAuthService, PetFinderAuthService>();
-            services.AddAuthentication(options => {
-                options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-                options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = OpenIdConnectDefaults.AuthenticationScheme;
-            })
-             .AddCookie()
-             .AddOpenIdConnect(options => {
-                 options.Authority = Configuration["AppSettings:PetFinderAuthority"];
-                 options.ClientId = Configuration["AppSettings:PetFinderApiKey"];
-                 options.ClientSecret = Configuration["AppSettings:PetFinderApiSecret"];
-                 options.SaveTokens = true;
-             });
+            services.AddScoped<IPetFinderAuthService, PetFinderAuthService>();     
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -72,7 +60,6 @@ namespace Petbase
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
-            app.UseAuthentication();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
