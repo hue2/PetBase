@@ -50,6 +50,14 @@
   cursor: pointer;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.m-auto {
+  margin: auto;
+}
+
 .table { 
   thead th {
     border-bottom: 1px solid #c8ced3;
@@ -84,7 +92,6 @@ only screen and (max-device-width: 650px)  {
 	
 	tr { 
     border: 1px solid #ccc; 
-    height: 70vh;
   }
 	
 	td { 
@@ -102,13 +109,16 @@ only screen and (max-device-width: 650px)  {
 		padding-right: 10px; 
 		white-space: nowrap;
   }
-	
-	td:nth-of-type(1):before { content: "Name"; }
-	td:nth-of-type(2):before { content: "Life Span"; }
-	td:nth-of-type(3):before { content: "Size"; }
-	td:nth-of-type(4):before { content: "Coat"; }
-	td:nth-of-type(5):before { content: "Unique Traits"; }
-  td:nth-of-type(6):before { content: "Picture"; }
+  
+  td:nth-of-type(1) {
+    height: 15vh;
+  }
+
+	td:nth-of-type(2):before { content: "Name"; }
+	td:nth-of-type(3):before { content: "Life Span"; }
+	td:nth-of-type(4):before { content: "Size"; }
+	td:nth-of-type(5):before { content: "Coat"; }
+	td:nth-of-type(6):before { content: "Unique Traits"; }
   
   .table th, .table td {
     padding-left: 50%;
@@ -125,6 +135,11 @@ only screen and (max-device-width: 650px)  {
 
   .form-control {
     width: 70%;
+  }
+
+  .image {
+    width: 90px;
+    min-height: 85px;
   }
 }
 

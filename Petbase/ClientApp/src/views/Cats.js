@@ -10,6 +10,7 @@ export default class Cats extends React.PureComponent {
         data: [],
         pictureModal: false,
         adoptModal: false,
+        isLoading: false,
         selectedRow: { name: '', imageUrl: '' },
         zipcode: null,
         animals: []
@@ -30,8 +31,9 @@ export default class Cats extends React.PureComponent {
     petFinderApi = new PetFinderApi();
 
     componentDidMount () {
+        this.setState({ isLoading: true });
         this.catApi.get().then(data => {
-            this.setState({ data });
+            this.setState({ data, isLoading: false });
         })
     }
 
@@ -54,14 +56,12 @@ export default class Cats extends React.PureComponent {
     render() {
         return (
             <div>
-                <Table data={this.state.data} columns={this.columns} title="Cats" />
-                <Modal 
-                    showModal={this.state.pictureModal} 
-                    title={this.state.selectedRow.name} 
-                    toggle={this.toggleModal} 
-                    imageUrl={this.state.selectedRow.pictureUrl} 
-                    id="pictureModal"
-                />
+                <Table 
+                    data={this.state.data} 
+                    columns={this.columns} 
+                    title="Cats" 
+                    isLoading={this.state.isLoading}
+                />             
             </div>
         )
     }

@@ -8,6 +8,7 @@ export default class Dogs extends React.PureComponent {
     state = {
         data: [],
         showModal: false,
+        isLoading: false,
         selectedRow: { name: '', imageUrl: '' },
     }
 
@@ -20,8 +21,9 @@ export default class Dogs extends React.PureComponent {
     columns = new Columns().getColumns(this.handleImageClick);
 
     componentDidMount () {
+        this.setState({ isLoading: true });
         this.dogApi.get().then(data => {
-            this.setState({ data });
+            this.setState({ data, isLoading: false });
         })
     }
 
@@ -34,12 +36,10 @@ export default class Dogs extends React.PureComponent {
     render() {
         return (
             <div>
-                <Table data={this.state.data} columns={this.columns} title={"Dogs"}/>
-                <Modal 
-                    showModal={this.state.showModal} 
-                    title={this.state.selectedRow.name} 
-                    toggle={this.toggleModal} 
-                    imageUrl={this.state.selectedRow.pictureUrl} 
+                <Table data={this.state.data} 
+                    columns={this.columns} 
+                    title={"Dogs"}
+                    isLoading={this.state.isLoading}
                 />
             </div>
         )
